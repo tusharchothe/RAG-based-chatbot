@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.env
+*.venv
+env/
+venv/
+ENV/
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# VS Code
+.vscode/
+
+# Data and logs
+data/
+*.log
+*.sqlite3
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Docker
+*.db
+*.pid
+*.seed
+*.bak
+*.swp
+
+# Ignore secrets
+*.env
+.env.*
+
+# Ignore build
+build/
+dist/
+*.egg-info/
+
+# Ignore static files
+static/
+
+# Ignore templates
+!templates/
+
+# Ignore research outputs
+research/*.ipynb_checkpoints
